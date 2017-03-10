@@ -19,11 +19,11 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/placeholder.png "Model Visualization"
 [image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[image3]: ./images/recovery1.jpg "Recovery Image"
+[image4]: ./images/recovery2.jpg "Recovery Image"
+[image5]: ./images/recovery3.jpg "Recovery Image"
+[image6]: ./images/flip1.jpg "Normal Image"
+[image7]: ./images/flip2.jpg "Flipped Image"
 [image8]: ./images/model.PNG "Model"
 
 ## Rubric Points
