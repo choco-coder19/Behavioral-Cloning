@@ -18,10 +18,10 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./images/recovery1.jpg "Recovery Image"
-[image4]: ./images/recovery2.jpg "Recovery Image"
-[image5]: ./images/recovery3.jpg "Recovery Image"
+[image2]: ./images/center.jpg "Normal driving"
+[image3]: ./images/recover1.jpg "Recovery Image"
+[image4]: ./images/recover2.jpg "Recovery Image"
+[image5]: ./images/recover3.jpg "Recovery Image"
 [image6]: ./images/flip1.jpg "Normal Image"
 [image7]: ./images/flip2.jpg "Flipped Image"
 [image8]: ./images/model.PNG "Model"
