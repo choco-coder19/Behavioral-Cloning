@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [image5]: ./examples/placeholder_small.png "Recovery Image"
 [image6]: ./examples/placeholder_small.png "Normal Image"
 [image7]: ./examples/placeholder_small.png "Flipped Image"
-[image8]: ./images/model.png "Model"
+[image8]: ./images/model.PNG "Model"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -146,12 +146,7 @@ Then I drove track one on the other direction for one lap.To augment the data sa
 ![alt text][image7]
 
 
-
-<<<<<<< HEAD
-After the collection process, I had X number of data points. After flipping, I have twice this size.
-=======
 After the collection process, I had 15836 images. After flipping, I have twice this size.
->>>>>>> 9e223f45c4a18a47fffcf4fa2230d08d6f6114e8
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
