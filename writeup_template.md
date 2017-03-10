@@ -38,7 +38,7 @@ My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network 
-* writeup_report.md or writeup_report.pdf summarizing the results
+* writeup_report.md summarizing the results
 
 ####2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
@@ -56,7 +56,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 My model consists of a convolution neural network similar to one described in [here](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) from Nvidia.
 
-As is described in line 53 to 79 from `process.py`, this architecture is composed by 5 convolutional layers, followed by 5 fully connected layers with dropout. ELU is used as activation, to introduce nonlinearities to the model. Adam optimizer is used with a learning rate of 0.00001. Keras lambda layer keeps the code simple, letting us to normalize the images directly. A cropping2d layer at the beggining selects the ROI.
+As is described in line 53 to 79 from `process.py`, this architecture is composed by 5 convolutional layers, followed by 5 fully connected layers with dropout. ELU is used as activation, to introduce nonlinearities to the model. Adam optimizer is used, so no tunning is needed in learning rate. Keras lambda layer keeps the code simple, letting us to normalize the images directly. A cropping2d layer at the beggining selects the ROI.
 
 
 ####2. Attempts to reduce overfitting in the model
